@@ -1,57 +1,124 @@
-<h1><b>🐱 Cat and dog classification algorithm 🐶</b></h1>
-<a href="https://www.python.org" target="_blank">
-  <img src="https://img.shields.io/badge/Python-52BE80">
-</a>
-<a href="https://pypi.org/project/tensorflow/" target="_blank">
-  <img src="https://img.shields.io/badge/Tensorflow-D4E6F1">
-</a>
-<a href="https://pypi.org/project/numpy/" target="_blank">
-  <img src="https://img.shields.io/badge/Numpy-51A2FF">
-</a>
-<a href="https://pypi.org/project/kagglehub/" target="_blank">
-  <img src="https://img.shields.io/badge/kagglehub-51A2FF">
-</a>
-<a href="https://pypi.org/project/matplotlib/" target="_blank">
-  <img src="https://img.shields.io/badge/Matplotlib-FB2C36">
-</a>
-<br><br>
+<h1 align="center">🐱 Cats vs Dogs Image Classification 🐶</h1>
 
-<img width="300" src="https://i.pinimg.com/1200x/b8/f7/42/b8f7423555a26da457c65b43ac48bb19.jpg">
-
-<p>
-  Un clasificador de perros y gatos en Python usa TensorFlow/Keras para crear una red neuronal convolucional que aprende a diferenciar imágenes del dataset de Kaggle. Con Matplotlib se visualizan ejemplos. Aunque, este modelo no predice tan bien, solo es uno de mis inicios en la IA.
+<p align="center">
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://img.shields.io/badge/Python-52BE80">
+  </a>
+  <a href="https://pypi.org/project/tensorflow/" target="_blank">
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00">
+  </a>
+  <a href="https://pypi.org/project/numpy/" target="_blank">
+    <img src="https://img.shields.io/badge/NumPy-013243">
+  </a>
+  <a href="https://pypi.org/project/matplotlib/" target="_blank">
+    <img src="https://img.shields.io/badge/Matplotlib-11557C">
+  </a>
 </p>
 
-## Índice de Contenidos 🧾
+<br>
 
-- Descripción 📝
-- Instalación 🛠️
-- Uso 📘
-- Licencia📜
+<p align="center">
+  <img width="300" src="https://i.pinimg.com/1200x/b8/f7/42/b8f7423555a26da457c65b43ac48bb19.jpg">
+</p>
 
-## Instalación 🖥️
+---
 
-1. Clona el repositorio:
+## 📖 Description
 
-    ```
-    git clone https://github.com/Bredalis/Cats-And-Dogs-Classification.git
-    ```
-## Uso ⚙️
+This project implements a **Convolutional Neural Network (CNN)** using **TensorFlow/Keras** to classify images of cats and dogs from a Kaggle dataset.
 
-Para ejecutar el programa, simplemente navega a Google Colab en la Web y das a la opción subir, 
-buscas el archivo Cats_And_Dogs_Classification.ipynb y ya está listo para usarse.
+The model learns visual patterns such as shapes, textures, and features to distinguish between both classes.  
+Matplotlib is used to visualize training results and image samples.
 
-## Licencia 📜
+> ⚠️ This was one of my first AI projects — the model is not highly optimized, but it represents an important step in my machine learning journey.
 
-Este proyecto está licenciado bajo la Licencia 📜 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">GPLv3 (GNU General Public License V3.0)</a>.
+---
 
-## <img src="https://avatars.githubusercontent.com/u/111624948?s=400&u=cd081f79392220d8cd2a22f2a8d5d3b18814350a&v=4" width="50" height="50"> Hola, soy Bredalis Guerrero!
-[![Github](https://img.shields.io/github/followers/Bredalis?label=Follow&style=social)](https://github.com/Bredalis)
-![GitHub Followers](https://img.shields.io/github/stars/bredalis?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/bredalis_P?style=social)](https://twitter.com/bredalis_P)
+## 🧠 Technologies Used
 
-¡Hola! Mi nombre es Bredalis y actualmente estoy aprendiendo cosas como Linux y Docker 😄
-Me gusta mucho la programacion y la IA 😁
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Kaggle Dataset
 
-## Mira mi perfil de GitHub:
-[![Web](https://img.shields.io/badge/GitHub-Bredalis-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/bredalis)
+---
+
+## 📂 Project Structure
+
+```
+
+Cats-And-Dogs-Classification/
+│
+├── notebooks/
+│├── cats_and_dogs_classification.ipynb
+├── README.md
+└── LICENSE
+
+````
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Bredalis/Cats-And-Dogs-Classification.git
+````
+
+2. Install dependencies:
+
+```bash
+pip install tensorflow numpy matplotlib kagglehub
+```
+
+---
+
+## 🚀 Usage
+
+You can run this project easily using **Google Colab**:
+
+1. Open Google Colab in your browser.
+2. Click on **Upload Notebook**.
+3. Upload `cats_and_dogs_classification.ipynb`.
+4. Run all cells.
+
+---
+
+## 📈 Future Improvements
+
+* Improve model accuracy with data augmentation
+* Add dropout and regularization
+* Experiment with transfer learning (e.g., MobileNet, ResNet)
+* Convert notebook into modular Python scripts
+
+---
+
+## 📜 License
+
+This project is licensed under the
+**GNU General Public License v3.0 (GPLv3)**
+[https://www.gnu.org/licenses/gpl-3.0.en.html](https://www.gnu.org/licenses/gpl-3.0.en.html)
+
+---
+
+## 👩‍💻 About Me
+
+Hi, I'm **Bredalis Guerrero** 👋
+
+I'm passionate about programming and Artificial Intelligence.
+Currently learning more about **Linux**, **Docker**, and improving my ML skills every day 🚀
+
+<p>
+  <a href="https://github.com/Bredalis">
+    <img src="https://img.shields.io/github/followers/Bredalis?label=Follow&style=social">
+  </a>
+  <a href="https://twitter.com/bredalis_P">
+    <img src="https://img.shields.io/twitter/follow/bredalis_P?style=social">
+  </a>
+</p>
+
+---
+
+⭐ If you like this project, feel free to give it a star!
